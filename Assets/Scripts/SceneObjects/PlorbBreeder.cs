@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class PlorbBreeder : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public PlorbSlotHolder trigger1;
+    public PlorbSlotHolder trigger2;
+
+    public SimpleButton heartbutton;
+
+    private void Start()
     {
-        
+        trigger1.OnHoldingChange += CheckForTwo;
+        trigger2.OnHoldingChange += CheckForTwo;
+
+        heartbutton.mousedown += GenerateEgg;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void CheckForTwo(bool val)
     {
-        
+        heartbutton.gameObject.SetActive(trigger1.IsHoldingPlorb && trigger2.IsHoldingPlorb);
+    }
+
+    private void GenerateEgg()
+    {
+
     }
 }

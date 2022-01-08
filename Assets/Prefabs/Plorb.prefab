@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 3881422914844726925}
   m_Layer: 0
   m_Name: Plorb
-  m_TagString: Untagged
+  m_TagString: Plorb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,6 +117,13 @@ MonoBehaviour:
   happinessDecayRate: 1
   juiceIncreaseRate: 1
   value: 0
+  genes:
+    body1: 0
+    body2: 0
+    wing1: 0
+    wing2: 0
+    ear1: 0
+    ear2: 0
 --- !u!114 &6707465850695254355
 MonoBehaviour:
   m_ObjectHideFlags: 0

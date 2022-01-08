@@ -120,9 +120,43 @@ public class PlorbDefiner : MonoBehaviour
 
     public GameObject BreedPlorbs(GameObject plorb1, GameObject plorb2)
     {
+        PlorbData parent1 = plorb1.GetComponent<PlorbData>();
+        PlorbData parent2 = plorb2.GetComponent<PlorbData>();
 
+        GameObject child = PunnetSquare(parent1, parent2);
 
         return CreateRandomPlorbOfType(BodyStyle.Pixel);
+    }
+
+    //JUST punnet squares, ONLY SETS GENES, doesnt set the traits correctly
+    private GameObject PunnetSquare(PlorbData plorb1, PlorbData plorb2)
+    {
+        GameObject childPlorb = BlankPlorb();
+        PlorbData childData = childPlorb.GetComponent<PlorbData>();
+
+        int b1 = Random.Range(0, 2), b2 = Random.Range(0, 2), w1 = Random.Range(0, 2), w2 = Random.Range(0, 2), e1 = Random.Range(0, 2), e2 = Random.Range(0, 2);
+
+        if (b1 == 0) childData.genes.body1 = plorb1.genes.body1; else childData.genes.body1 = plorb1.genes.body2;
+        if (b2 == 0) childData.genes.body2 = plorb2.genes.body1; else childData.genes.body2 = plorb2.genes.body2;
+
+        if (w1 == 0) childData.genes.wing1 = plorb1.genes.wing1; else childData.genes.wing1 = plorb1.genes.wing2;
+        if (w2 == 0) childData.genes.wing2 = plorb2.genes.wing1; else childData.genes.wing2 = plorb2.genes.wing2;
+
+        if (e1 == 0) childData.genes.ear1 = plorb1.genes.ear1; else childData.genes.ear1 = plorb1.genes.ear2;
+        if (e2 == 0) childData.genes.ear2 = plorb2.genes.ear1; else childData.genes.ear2 = plorb2.genes.ear2;
+
+
+
+        return childPlorb;
+    }
+
+    private BodyStyle setBody(PlorbData plorb)
+    {
+        List<BodyStyle> temp = new List<BodyStyle>{ plorb.genes.body1, plorb.genes.body2 };
+
+        if (temp.Contains(BodyStyle.Poly)) return BodyStyle.Poly;
+        else if (temp.Contains(BodyStyle.Paint)) return BodyStyle.Paint;
+        else return BodyStyle.Pixel;
     }
 
     private GameObject BlankPlorb() { return (GameObject)Instantiate(blankPlorbPrefab, new Vector3(0, 0, 0), Quaternion.identity); }
