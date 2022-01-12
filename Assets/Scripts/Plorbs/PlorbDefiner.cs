@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlorbDefiner : MonoBehaviour
 {
-    //2 steps
-    //1. create a new PlorbPrefab (should have all scripts attatched and ready)
-    //2. populate the PlorbData
+
+    public float SATURATION_CAP;
 
     public static PlorbDefiner INSTANCE;
     public GameObject blankPlorbPrefab;
@@ -32,6 +31,12 @@ public class PlorbDefiner : MonoBehaviour
     {
         GameObject newPlorb = BlankPlorb();
         PlorbData data = newPlorb.GetComponent<PlorbData>();
+        //
+        //
+        //debug
+        data.Age = 10;
+        //
+        //
 
         //set body info
         data.body = (BodyStyle)type;
@@ -48,6 +53,8 @@ public class PlorbDefiner : MonoBehaviour
 
 
         newPlorb.transform.parent = this.gameObject.transform;
+
+
         return newPlorb;
     }
 
@@ -83,12 +90,53 @@ public class PlorbDefiner : MonoBehaviour
     {
         return "";
     }
-
-    //make return type here
-
+    
     private int DetermineValue(PlorbData plorb)
     {
-        return 100;
+        int val = 0;
+
+        switch (plorb.body)
+        {
+            case BodyStyle.Paint:
+                val += 200;
+                break;
+            case BodyStyle.Pixel:
+                val += 300;
+                break;
+            case BodyStyle.Poly:
+                val += 100;
+                break;
+        }
+
+        switch (plorb.wing)
+        {
+            case WingStyle.Paint:
+                val += 100;
+                break;
+            case WingStyle.Pixel:
+                val += 150;
+                break;
+            case WingStyle.Poly:
+                val += 50;
+                break;
+        }
+
+        switch (plorb.ear)
+        {
+            case EarStyle.Paint:
+                val += 100;
+                break;
+            case EarStyle.Pixel:
+                val += 150;
+                break;
+            case EarStyle.Poly:
+                val += 50;
+                break;
+        }
+
+        //TODO: some kind of algorithm for color cost
+
+        return val;
     }
 
     private void DetermineDecayValues(PlorbData plorb)
@@ -97,14 +145,15 @@ public class PlorbDefiner : MonoBehaviour
         plorb.hungerDecayRate = 1;
         plorb.juiceIncreaseRate = 1;
         plorb.totalJuiceCapacity = 100;
-        plorb.juiceExplosionThreshold = 100;
     }
 
     public void DestroyPlorb(PlorbData plorb)
     {
         //should remove it from list and add it to dead list
-    //    deadPlorbs.Add(CopyPlorbData(plorb));
-        Destroy(plorb.gameObject);
+        //    deadPlorbs.Add(CopyPlorbData(plorb));
+        PlorbAnimator anim = plorb.GetComponent<PlorbAnimator>();
+        anim.onDeath();
+        Destroy(plorb.gameObject,.5f);
     }
 
     private PlorbData CopyPlorbData(PlorbData plorb)
@@ -124,11 +173,100 @@ public class PlorbDefiner : MonoBehaviour
         PlorbData parent2 = plorb2.GetComponent<PlorbData>();
 
         GameObject child = PunnetSquare(parent1, parent2);
+        PlorbData myData = child.GetComponent<PlorbData>();
 
-        return CreateRandomPlorbOfType(BodyStyle.Pixel);
+        SetStyles(myData);
+
+        DiscoverColor(parent1, parent2, myData);
+
+        //seting secondary values
+        myData.title = DetermineTitle(myData);
+        myData.value = DetermineValue(myData);
+
+        child.GetComponent<PlorbAnimator>().ResetHue();
+
+        child.transform.parent = this.gameObject.transform;
+        
+        PrintPlorbGenesDebug(parent1);
+        PrintPlorbGenesDebug(parent2);
+        PrintPlorbGenesDebug(myData);
+
+        return child;
     }
 
-    //JUST punnet squares, ONLY SETS GENES, doesnt set the traits correctly
+    private void PrintPlorbGenesDebug(PlorbData plorb)
+    {
+        print("r: " + plorb.hue.r + "    g: " + plorb.hue.g + "    b: " + plorb.hue.b);
+        print("genotype: body-" + plorb.genes.body1 + plorb.genes.body2 + " wing-" + plorb.genes.wing1 + plorb.genes.wing2 + " ear-" + plorb.genes.ear1 + plorb.genes.ear2
+            + "\n" + "phenotype: body-+ " + plorb.body + " wing-" + plorb.wing + " ear-" + plorb.ear);
+    }
+
+    //right now just averages the colors. This is LAME however, change later
+    //TODO: make this less lame.
+    private void DiscoverColor(PlorbData parent1, PlorbData parent2, PlorbData child)
+    {
+        float chance = Random.Range(0f, 1f);
+
+        Color result = new Color(0, 0, 0, 0);
+
+        if (chance >= .75f) //parent 1 
+            result.r = GetResultedColorFromParent(parent1, parent1.hue.r);
+        else if (chance >= .5f) //parent 2 
+            result.r = GetResultedColorFromParent(parent2, parent2.hue.r);
+        else { //mix of both
+            result.r += parent1.hue.r;
+            result.r += parent2.hue.r;
+            result.r /= 2;
+        }
+
+        chance = Random.Range(0f, 1f);
+        if (chance >= .75f) //parent 1 
+            result.g = GetResultedColorFromParent(parent1, parent1.hue.g);
+        else if (chance >= .5f) //parent 2 
+            result.g = GetResultedColorFromParent(parent2, parent2.hue.g);
+        else
+        { //mix of both
+            result.g += parent1.hue.g;
+            result.g += parent2.hue.g;
+            result.g /= 2;
+        }
+
+        chance = Random.Range(0f, 1f);
+        if (chance >= .75f) //parent 1 
+            result.b = GetResultedColorFromParent(parent1, parent1.hue.b);
+        else if (chance >= .5f) //parent 2 
+            result.b = GetResultedColorFromParent(parent2, parent2.hue.b);
+        else
+        { //mix of both
+            result.b += parent1.hue.b;
+            result.b += parent2.hue.b;
+            result.b /= 2;
+        }
+        child.hue = result;
+    }
+
+    private float GetResultedColorFromParent(PlorbData parent, float color)
+    {
+        float result = color;
+
+        switch (parent.body)
+        {
+            case BodyStyle.Pixel:
+                result += Random.Range(.20f, .30f);
+                if (result > 1f) result = 1f;
+                break;
+            case BodyStyle.Paint:
+                break;
+            case BodyStyle.Poly:
+                result -= Random.Range(.20f, .30f);
+                if (result < SATURATION_CAP) result = SATURATION_CAP;
+                break;
+        }
+
+        return result;
+    }
+
+    //JUST punnet squares, ONLY SETS GENES, doesnt set the phenotype correctly
     private GameObject PunnetSquare(PlorbData plorb1, PlorbData plorb2)
     {
         GameObject childPlorb = BlankPlorb();
@@ -145,18 +283,41 @@ public class PlorbDefiner : MonoBehaviour
         if (e1 == 0) childData.genes.ear1 = plorb1.genes.ear1; else childData.genes.ear1 = plorb1.genes.ear2;
         if (e2 == 0) childData.genes.ear2 = plorb2.genes.ear1; else childData.genes.ear2 = plorb2.genes.ear2;
 
-
-
         return childPlorb;
     }
 
-    private BodyStyle setBody(PlorbData plorb)
+    private void SetStyles(PlorbData plorb)
+    {
+        plorb.body = SetBody(plorb);
+        plorb.wing = SetWing(plorb);
+        plorb.ear = SetEar(plorb);
+    }
+
+    private BodyStyle SetBody(PlorbData plorb)
     {
         List<BodyStyle> temp = new List<BodyStyle>{ plorb.genes.body1, plorb.genes.body2 };
 
         if (temp.Contains(BodyStyle.Poly)) return BodyStyle.Poly;
         else if (temp.Contains(BodyStyle.Paint)) return BodyStyle.Paint;
         else return BodyStyle.Pixel;
+    }
+
+    private WingStyle SetWing(PlorbData plorb)
+    {
+        List<WingStyle> temp = new List<WingStyle> { plorb.genes.wing1, plorb.genes.wing2 };
+
+        if (temp.Contains(WingStyle.Poly)) return WingStyle.Poly;
+        else if (temp.Contains(WingStyle.Paint)) return WingStyle.Paint;
+        else return WingStyle.Pixel;
+    }
+
+    private EarStyle SetEar(PlorbData plorb)
+    {
+        List<EarStyle> temp = new List<EarStyle> { plorb.genes.ear1, plorb.genes.ear2 };
+
+        if (temp.Contains(EarStyle.Poly)) return EarStyle.Poly;
+        else if (temp.Contains(EarStyle.Paint)) return EarStyle.Paint;
+        else return EarStyle.Pixel;
     }
 
     private GameObject BlankPlorb() { return (GameObject)Instantiate(blankPlorbPrefab, new Vector3(0, 0, 0), Quaternion.identity); }

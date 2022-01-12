@@ -9,6 +9,7 @@ public class SimpleButton : MonoBehaviour
 
     private void OnMouseDown()
     {
+        print("clicked!");
         mousedown.Invoke();
     }
 }

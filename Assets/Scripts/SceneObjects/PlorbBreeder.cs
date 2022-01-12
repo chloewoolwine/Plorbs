@@ -24,6 +24,14 @@ public class PlorbBreeder : MonoBehaviour
 
     private void GenerateEgg()
     {
+        PlorbData parent1 = trigger1.myPlorb;
+        PlorbData parent2 = trigger2.myPlorb;
+
+        //check to make sure both plorbs are not eggs
+        if (parent1.Age < 10 || parent2.Age < 10)
+            return;
+
+        GameObject egg = PlorbDefiner.INSTANCE.BreedPlorbs(parent1.gameObject, parent2.gameObject);
 
     }
 }

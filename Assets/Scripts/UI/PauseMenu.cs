@@ -14,12 +14,16 @@ public class PauseMenu : MonoBehaviour
     private void Awake()
     {
         INSTANCE = this;
+        gameIsPaused = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown("escape"))
+        {
+            print("pause");
             if (gameIsPaused) Resume(); else Pause();
+        }
     }
 
     private void Pause()

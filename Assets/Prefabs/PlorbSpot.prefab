@@ -71,7 +71,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6eb6b54835ee33448a259bc7a6c65c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsHoldingPlorb: 0
   myPlorb: {fileID: 0}
   plorbHovered: 0
   hoveringPlorb: {fileID: 0}
