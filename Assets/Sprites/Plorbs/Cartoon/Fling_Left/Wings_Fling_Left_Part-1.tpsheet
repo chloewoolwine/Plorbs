@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Wings_Fling_Left_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonWings0734.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0736.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0738.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0740.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0742.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0744.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0746.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0748.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0750.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0752.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0754.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0756.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0758.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0760.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0762.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings0764.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

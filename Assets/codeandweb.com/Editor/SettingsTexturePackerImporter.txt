@@ -2,6 +2,158 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Body_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Ears_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Eyes_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Wings_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Body_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Body_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Body_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Ears_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Ears_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Ears_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Eyes_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Eyes_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Eyes_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Wings_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Wings_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Wings_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Body_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Body_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Body_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Ears_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Ears_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Ears_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Eyes_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Eyes_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Eyes_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Wings_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Wings_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Wings_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Body_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Body_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Body_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Ears_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Ears_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Ears_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Eyes_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Eyes_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Eyes_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Wings_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Wings_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Wings_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Body_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Body_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Body_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Ears_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Ears_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Ears_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Eyes_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Eyes_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Eyes_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Wings_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Wings_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Wings_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Body_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Body_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Body_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Ears_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Ears_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Ears_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Eyes_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Eyes_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Eyes_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Wings_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Wings_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Wings_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Body_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Body_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Body_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Ears_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Ears_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Ears_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Eyes_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Eyes_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Eyes_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Wings_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Wings_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Wings_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Body_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Body_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Body_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Ears_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Ears_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Ears_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Eyes_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Eyes_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Eyes_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Wings_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Wings_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Wings_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Body_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Body_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Ears_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Ears_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Eyes_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Eyes_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Wings_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Wings_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Body_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Body_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Ears_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Ears_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Eyes_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Eyes_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Wings_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Wings_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Body_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Body_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Ears_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Ears_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Eyes_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Eyes_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Wings_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Wings_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Body_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Body_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Ears_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Ears_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Eyes_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Eyes_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Wings_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Wings_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-3.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Explosion/Body_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Explosion/Ears_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Explosion/Eyes_Explode_Part.tpsheet
@@ -301,6 +453,158 @@ tpsheetFileNames:
 - Assets/TestArea/Body_Idle_Part-0.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Body_Explode_Part.png
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Ears_Explode_Part.png
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Eyes_Explode_Part.png
+- Assets/Sprites/Plorbs/Cartoon/Explosion/Wings_Explode_Part.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Body_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Body_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Body_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Ears_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Ears_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Ears_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Eyes_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Eyes_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Eyes_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Wings_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Wings_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Left/Wings_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Body_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Body_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Body_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Ears_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Ears_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Ears_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Eyes_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Eyes_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Eyes_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Wings_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Wings_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_RIght/Wings_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Body_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Body_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Body_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Ears_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Ears_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Ears_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Eyes_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Eyes_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Eyes_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Wings_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Wings_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Fling_Vertical/Wings_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Body_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Ears_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Eyes_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Idle/Wings_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Body_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Body_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Body_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Ears_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Ears_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Ears_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Eyes_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Eyes_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Eyes_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Wings_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Wings_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Backwards/Wings_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Body_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Body_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Body_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Ears_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Ears_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Ears_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Eyes_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Eyes_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Eyes_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Wings_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Wings_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Forward/Wings_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Body_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Body_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Body_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Ears_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Ears_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Ears_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Eyes_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Eyes_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Eyes_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Wings_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Wings_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Left/Wings_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Body_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Body_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Body_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Ears_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Ears_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Ears_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Eyes_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Eyes_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Eyes_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Wings_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Wings_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Jump_Right/Wings_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Body_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Body_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Ears_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Ears_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Eyes_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Eyes_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Wings_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Backwards/Wings_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Body_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Body_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Ears_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Ears_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Eyes_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Eyes_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Wings_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Forwards/Wings_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Body_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Body_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Ears_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Ears_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Eyes_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Eyes_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Wings_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Left/Wings_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Body_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Body_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Ears_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Ears_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Eyes_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Eyes_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Wings_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Roll_Right/Wings_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Body_Squirm_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Ears_Squirm_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Eyes_Squirm_Part-3.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-3.png
 - Assets/Sprites/Plorbs/Pixel/Explosion/Body_Explode_Part.png
 - Assets/Sprites/Plorbs/Pixel/Explosion/Ears_Explode_Part.png
 - Assets/Sprites/Plorbs/Pixel/Explosion/Eyes_Explode_Part.png
@@ -600,6 +904,158 @@ textureFileNames:
 - Assets/TestArea/Body_Idle_Part-0.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

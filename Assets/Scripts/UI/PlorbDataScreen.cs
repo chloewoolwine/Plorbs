@@ -38,6 +38,12 @@ public class PlorbDataScreen : MonoBehaviour
         INSTANCE = this;
     }
 
+    private void Update()
+    {
+        if (currentPlorb != null)
+            ShowPlorb(currentPlorb);
+    }
+
     public void ShowPlorb(PlorbData plorb)
     {
         currentPlorb = plorb;

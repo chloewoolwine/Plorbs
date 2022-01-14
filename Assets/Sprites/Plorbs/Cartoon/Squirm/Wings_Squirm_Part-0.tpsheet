@@ -1,0 +1,32 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Wings_Squirm_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonWings1240.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1241.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1242.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1243.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1244.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1245.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1246.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1247.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1248.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1249.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1250.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1251.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1252.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1253.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1254.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1255.png;1536;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonWings1293.png;0;1536;512;512; 0.5;0.5; 0;0;0;0

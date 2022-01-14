@@ -74,7 +74,7 @@ public class PlorbData : MonoBehaviour
             currentJuice = value;
             if (value > totalJuiceCapacity)
             {
-                BeginDying(DeathState.Juice);
+            //    BeginDying(DeathState.Juice);
             }
             else deathState = DeathState.Healthy;
         }

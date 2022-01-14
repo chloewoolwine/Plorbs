@@ -1,0 +1,30 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Eyes_Roll_Right_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonEyes0487.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0489.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0491.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0493.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0495.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0497.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0499.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0501.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0503.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0505.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0507.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0509.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0511.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0515.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes0513.png;1024;512;512;512; 0.5;0.5; 0;0;0;0

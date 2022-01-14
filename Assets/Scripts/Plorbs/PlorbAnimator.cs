@@ -37,11 +37,16 @@ public class PlorbAnimator : MonoBehaviour
     public List<Animator> animators;
 
     public PlorbData theData;
+    public Rigidbody2D myRigid;
 
-    private bool isMouseDown = false;
+    public bool InControl;
+
+    public bool isMouseDown;
 
     private void Awake()
     {
+        isMouseDown = false;
+        InControl = true;
         myRenders.Add(bodyRenderer);
         myRenders.Add(wingRenderer);
         myRenders.Add(earRenderer);
@@ -56,6 +61,59 @@ public class PlorbAnimator : MonoBehaviour
                 x.sortingOrder = (int)(bodyRenderer.transform.position.y * -100);
             bodyRenderer.sortingOrder = bodyRenderer.sortingOrder + 1; //c:
             eyeRenderer.sortingOrder = eyeRenderer.sortingOrder + 2;
+        }
+
+        //right postive, left negative
+        //up positive, down negative.
+        //if we are moving
+        if (!isMouseDown && InControl) //change to check of plorb interacitons
+        {
+            if (myRigid.velocity.magnitude > 1)
+            {
+                if (myRigid.velocity.y == 0) //if we are rolling
+                {
+                    if (myRigid.velocity.x > 0)
+                    {
+                        RollRight();
+                    }
+                    else
+                    {
+                        RollLeft();
+                    }
+                    // print("rolling " + myRigid.velocity.x);
+                }
+                else //we are in the air. 
+                {
+                    if(myRigid.velocity.y < 0)
+                    {
+                        if (myRigid.velocity.x > 10)
+                        {
+                            FlingRight();
+                        }
+                        else if (myRigid.velocity.x < 10)
+                        {
+                            FlingLeft();
+                        }
+                        else
+                        {
+                            RollForwards();
+                        }
+                    } else //we are heading up
+                    {
+                        if(myRigid.velocity.y > 10)
+                        {
+                            FlingUp();
+                        } else
+                        {
+                            RollBackwards();
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Idle();
+            }
         }
     }
 
@@ -121,7 +179,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.body)
         {
             case BodyStyle.Pixel:
-                bodyAnimator.Play("CartoonBodySquirm");
+                bodyAnimator.Play("PixelBodySquirm");
                 break;
             case BodyStyle.Poly:
                 bodyAnimator.Play("PolyBodySquirm");
@@ -134,7 +192,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.wing)
         {
             case WingStyle.Pixel:
-                wingAnimator.Play("CartWingSquirm");
+                wingAnimator.Play("PixelWingSquirm");
                 break;
             case WingStyle.Poly:
                 wingAnimator.Play("PolyWingSquirm");
@@ -147,7 +205,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.ear)
         {
             case EarStyle.Pixel:
-                earAnimator.Play("CartEarSquirm");
+                earAnimator.Play("PixelEarSquirm");
                 break;
             case EarStyle.Poly:
                 earAnimator.Play("PolyEarSquirm");
@@ -187,7 +245,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.body)
         {
             case BodyStyle.Pixel:
-                bodyAnimator.Play("CartoonBodyIdle");
+                bodyAnimator.Play("PixelBodyIdle");
                 break;
             case BodyStyle.Poly:
                 bodyAnimator.Play("PolyBIdle");
@@ -200,7 +258,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.wing)
         {
             case WingStyle.Pixel:
-                wingAnimator.Play("CartoonWingIdle");
+                wingAnimator.Play("PixelWingIdle");
                 break;
             case WingStyle.Poly:
                 wingAnimator.Play("PolyWingIdle");
@@ -213,7 +271,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.ear)
         {
             case EarStyle.Pixel:
-                earAnimator.Play("CartoonEarsIdle");
+                earAnimator.Play("PixelEarIdle");
                 break;
             case EarStyle.Poly:
                 earAnimator.Play("PolyEarIdle");
@@ -231,10 +289,11 @@ public class PlorbAnimator : MonoBehaviour
     //TODO: replace cartoon with other bodytypes, add eyes
     public void onDeath()
     {
+        InControl = false;
         switch (theData.body)
         {
             case BodyStyle.Pixel:
-                bodyAnimator.Play("CartoonExplosionBody");
+                bodyAnimator.Play("PixelExplosionBody");
                 break;
             case BodyStyle.Poly:
                 bodyAnimator.Play("PolyBodyExplode");
@@ -247,7 +306,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.wing)
         {
             case WingStyle.Pixel:
-                wingAnimator.Play("CartoonExplosionWing");
+                wingAnimator.Play("PixelExplosionWing");
                 break;
             case WingStyle.Poly:
                 wingAnimator.Play("PolyWingExplode");
@@ -260,7 +319,7 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.ear)
         {
             case EarStyle.Pixel:
-                earAnimator.Play("CartoonExplosionEar");
+                earAnimator.Play("PixelExplosionEar");
                 break;
             case EarStyle.Poly:
                 earAnimator.Play("PolyEarExplode");
@@ -273,5 +332,313 @@ public class PlorbAnimator : MonoBehaviour
         print("plorb has died.");
         //no eye epxlosion yet
         eyeAnimator.Play("PolyEyeExplode");
+    }
+    
+    public void FlingRight()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyRFling");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyRFling");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyRFling");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingRFling");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingRFling");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingRFling");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarRFling");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarRFling");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarRFling");
+                break;
+        }
+
+        eyeAnimator.Play("PixelEyeRFling");
+    }
+
+    public void FlingLeft()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyLFling");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyLFling");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyLFling");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingLFling");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingLFling");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingLFling");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarLFling");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarLFling");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarLFling");
+                break;
+        }
+
+        eyeAnimator.Play("PixelEyeLFling");
+    }
+
+    public void FlingUp()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyVFling");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyVFling");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyVFling");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingVFling");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingVFling");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingVFling");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarVFling");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarVFling");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarVFling");
+                break;
+        }
+
+        eyeAnimator.Play("PixelEyeVFling");
+    }
+
+    public void RollBackwards()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyBRoll");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyBRoll");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyBRoll");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingBRoll");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingBRoll");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingBRoll");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarBRoll");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarBRoll");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarBRoll");
+                break;
+        }
+
+        eyeAnimator.Play("PixelEyeBRoll");
+    }
+
+    public void RollForwards()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyFRoll");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyFRoll");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyFRoll");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingFRoll");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingFRoll");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingFRoll");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarFRoll");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarFRoll");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarFRoll");
+                break;
+        }
+
+        eyeAnimator.Play("PixelEyeFRoll");
+    }
+
+    public void RollRight()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyRRoll");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyRRoll");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyRRoll");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingRRoll");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingRRoll");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingRRoll");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarRRoll");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarRRoll");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarRRoll");
+                break;
+        }
+
+        eyeAnimator.Play("PixelEyeRRoll");
+    }
+
+    public void RollLeft()
+    {
+        switch (theData.body)
+        {
+            case BodyStyle.Pixel:
+                bodyAnimator.Play("PixelBodyLRoll");
+                break;
+            case BodyStyle.Poly:
+                bodyAnimator.Play("PolyBodyLRoll");
+                break;
+            case BodyStyle.Paint:
+                bodyAnimator.Play("CartoonBodyLRoll");
+                break;
+        }
+
+        switch (theData.wing)
+        {
+            case WingStyle.Pixel:
+                wingAnimator.Play("PixelWingLRoll");
+                break;
+            case WingStyle.Poly:
+                wingAnimator.Play("PolyWingLRoll");
+                break;
+            case WingStyle.Paint:
+                wingAnimator.Play("CartoonWingLRoll");
+                break;
+        }
+
+        switch (theData.ear)
+        {
+            case EarStyle.Pixel:
+                earAnimator.Play("PixelEarLRoll");
+                break;
+            case EarStyle.Poly:
+                earAnimator.Play("PolyEarLRoll");
+                break;
+            case EarStyle.Paint:
+                earAnimator.Play("CartoonEarLRoll");
+                break;
+        }
+        
+        eyeAnimator.Play("PixelEyeLRoll");
     }
 }

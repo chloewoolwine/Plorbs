@@ -110,7 +110,8 @@ public class PlorbInteractions : MonoBehaviour
         while(height > 0)
         {
             _body.velocity += new Vector2(0, -.8f);
-            height = height-_body.velocity.sqrMagnitude;
+          //  if(_body.velocity.sqrMagnitude < 1000)
+                height = height-_body.velocity.sqrMagnitude;
             yield return new WaitForFixedUpdate();
         }
 
