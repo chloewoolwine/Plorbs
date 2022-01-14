@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Body_Roll_Left_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonBody0540.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0542.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0544.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0546.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0548.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0550.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0552.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0554.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0556.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0558.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0560.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0562.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0564.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0566.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0568.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0570.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

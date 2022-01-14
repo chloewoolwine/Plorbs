@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Body_Jump_Backwards_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonBody1172.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1174.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1176.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1178.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1180.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1182.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1184.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1186.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1188.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1190.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1192.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1194.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1196.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1198.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1200.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody1202.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

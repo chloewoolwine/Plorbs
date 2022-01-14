@@ -34,6 +34,7 @@ public class PlorbInteractions : MonoBehaviour
         isMouseDown = true; //because we're in the on mouse down function
 
         StartCoroutine(Drag());
+        PlorbDataScreen.INSTANCE.ShowPlorb(myData);
     }
 
     void OnMouseOver()
@@ -59,11 +60,14 @@ public class PlorbInteractions : MonoBehaviour
 
     }
 
+    //IDEA: USE z axis as a sort of "height" container. drag means z = 1, whenever END drag the dude will start falling until 1. z = 0 or 2. he has reached an illegal y position (cant fling them off)
+
     // Update the dragged position as long as the mouse button is held.
     IEnumerator Drag()
     {
         anim.SetDragSortedOrder();
 
+      //  _body.transform.position = new Vector3(_body.transform.position.x, _body.transform.position.y, 1);
         // Stash our current offset from the cursor, 
         // so we can preserve it through the move.
         var offset = transform.InverseTransformPoint(ComputeCursorPosition());
@@ -85,7 +89,9 @@ public class PlorbInteractions : MonoBehaviour
             // Let our chosen drag method choose how to get us there.
             yield return Velocity(_body.position + travel);
         }
-        
+
+        height = basePickupHeight*_body.velocity.magnitude;
+        yield return StartCoroutine(Fall());
     }
 
     // Effectively the same results as MovePosition.
@@ -94,6 +100,21 @@ public class PlorbInteractions : MonoBehaviour
         var velocity = (destination - _body.position) / Time.deltaTime;
         _body.velocity = velocity;
         return new WaitForFixedUpdate();
+    }
+
+    
+    public float height;
+    public float basePickupHeight;  
+    IEnumerator Fall()
+    {
+        while(height > 0)
+        {
+            _body.velocity += new Vector2(0, -.8f);
+            height = height-_body.velocity.sqrMagnitude;
+            yield return new WaitForFixedUpdate();
+        }
+
+        _body.velocity *= new Vector2(1f, 0f);
     }
 
     // Initialize component dependencies.

@@ -110,6 +110,7 @@ public class PlorbAnimator : MonoBehaviour
         bodyRenderer.color = theData.hue;
         earRenderer.color = theData.hue;
         wingRenderer.color = theData.hue;
+        Idle();
     }
 
     public void SetDragSortedOrder()
@@ -123,7 +124,7 @@ public class PlorbAnimator : MonoBehaviour
                 bodyAnimator.Play("CartoonBodySquirm");
                 break;
             case BodyStyle.Poly:
-                bodyAnimator.Play("CartoonBodySquirm");
+                bodyAnimator.Play("PolyBodySquirm");
                 break;
             case BodyStyle.Paint:
                 bodyAnimator.Play("CartoonBodySquirm");
@@ -133,26 +134,26 @@ public class PlorbAnimator : MonoBehaviour
         switch (theData.wing)
         {
             case WingStyle.Pixel:
-                wingAnimator.Play("CartoonWingSquirm");
+                wingAnimator.Play("CartWingSquirm");
                 break;
             case WingStyle.Poly:
-                wingAnimator.Play("CartoonWingSquirm");
+                wingAnimator.Play("PolyWingSquirm");
                 break;
             case WingStyle.Paint:
-                wingAnimator.Play("CartoonWingSquirm");
+                wingAnimator.Play("CartWingSquirm");
                 break;
         }
 
         switch (theData.ear)
         {
             case EarStyle.Pixel:
-                earAnimator.Play("CartoonEarSquirm");
+                earAnimator.Play("CartEarSquirm");
                 break;
             case EarStyle.Poly:
-                earAnimator.Play("CartoonEarSquirm");
+                earAnimator.Play("PolyEarSquirm");
                 break;
             case EarStyle.Paint:
-                earAnimator.Play("CartoonEarSquirm");
+                earAnimator.Play("CartEarSquirm");
                 break;
         }
 
@@ -189,7 +190,7 @@ public class PlorbAnimator : MonoBehaviour
                 bodyAnimator.Play("CartoonBodyIdle");
                 break;
             case BodyStyle.Poly:
-                bodyAnimator.Play("CartoonBodyIdle");
+                bodyAnimator.Play("PolyBIdle");
                 break;
             case BodyStyle.Paint:
                 bodyAnimator.Play("CartoonBodyIdle");
@@ -202,7 +203,7 @@ public class PlorbAnimator : MonoBehaviour
                 wingAnimator.Play("CartoonWingIdle");
                 break;
             case WingStyle.Poly:
-                wingAnimator.Play("CartoonWingIdle");
+                wingAnimator.Play("PolyWingIdle");
                 break;
             case WingStyle.Paint:
                 wingAnimator.Play("CartoonWingIdle");
@@ -215,7 +216,7 @@ public class PlorbAnimator : MonoBehaviour
                 earAnimator.Play("CartoonEarsIdle");
                 break;
             case EarStyle.Poly:
-                earAnimator.Play("CartoonEarsIdle");
+                earAnimator.Play("PolyEarIdle");
                 break;
             case EarStyle.Paint:
                 earAnimator.Play("CartoonEarsIdle");
@@ -236,7 +237,7 @@ public class PlorbAnimator : MonoBehaviour
                 bodyAnimator.Play("CartoonExplosionBody");
                 break;
             case BodyStyle.Poly:
-                bodyAnimator.Play("CartoonExplosionBody");
+                bodyAnimator.Play("PolyBodyExplode");
                 break;
             case BodyStyle.Paint:
                 bodyAnimator.Play("CartoonExplosionBody");  
@@ -249,7 +250,7 @@ public class PlorbAnimator : MonoBehaviour
                 wingAnimator.Play("CartoonExplosionWing");
                 break;
             case WingStyle.Poly:
-                wingAnimator.Play("CartoonExplosionWing");
+                wingAnimator.Play("PolyWingExplode");
                 break;
             case WingStyle.Paint:
                 wingAnimator.Play("CartoonExplosionWing");
@@ -262,7 +263,7 @@ public class PlorbAnimator : MonoBehaviour
                 earAnimator.Play("CartoonExplosionEar");
                 break;
             case EarStyle.Poly:
-                earAnimator.Play("CartoonExplosionEar");
+                earAnimator.Play("PolyEarExplode");
                 break;
             case EarStyle.Paint:
                 earAnimator.Play("CartoonExplosionEar");
@@ -271,5 +272,6 @@ public class PlorbAnimator : MonoBehaviour
 
         print("plorb has died.");
         //no eye epxlosion yet
+        eyeAnimator.Play("PolyEyeExplode");
     }
 }

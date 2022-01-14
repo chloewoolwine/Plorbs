@@ -47,7 +47,25 @@ public class PauseMenu : MonoBehaviour
         //no such capability available.
     }
 
-    public void Quit()
+    public void PauseButton()
+    {
+        Pause();
+    }
+
+    public void ResumeButton()
+    {
+        Resume();
+    }
+
+    public void HelpButton()
+    {
+    }
+
+    public void SettingsButton()
+    {
+    }
+
+    public void QuitButton()
     {
         Application.Quit();
     }

@@ -134,7 +134,7 @@ public class PlorbDefiner : MonoBehaviour
                 break;
         }
 
-        //TODO: some kind of algorithm for color cost
+        //TODO: some kind of algorithm for color cost??
 
         return val;
     }
@@ -154,6 +154,11 @@ public class PlorbDefiner : MonoBehaviour
         PlorbAnimator anim = plorb.GetComponent<PlorbAnimator>();
         anim.onDeath();
         Destroy(plorb.gameObject,.5f);
+    }
+
+    public void SellPlorb(PlorbData plorb)
+    {
+        DestroyPlorb(plorb); //lol probably play a different animation instead before destroying
     }
 
     private PlorbData CopyPlorbData(PlorbData plorb)

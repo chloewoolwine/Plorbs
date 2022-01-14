@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Ears_Roll_Right_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonEars0455.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0457.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0459.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0461.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0463.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0465.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0467.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0469.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0471.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0473.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0475.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0477.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0479.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0481.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0483.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEars0485.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

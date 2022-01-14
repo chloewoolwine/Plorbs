@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Body_Squirm_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Body-CartoonBody1256.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1257.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1258.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1259.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1260.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1261.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1262.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1263.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1264.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1265.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1266.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1267.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1268.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1269.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1270.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Body-CartoonBody1271.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlorbSlotHolder : MonoBehaviour
 {
 
-    private bool isHoldingPlorb;
+    public bool isHoldingPlorb;
     public PlorbData myPlorb;
 
     public bool plorbHovered;
@@ -20,7 +20,7 @@ public class PlorbSlotHolder : MonoBehaviour
             OnHoldingChange?.Invoke(value);
         }
     }
-    
+
     public delegate void OnHoldingChangeDelegate(bool newVal);
     public event OnHoldingChangeDelegate OnHoldingChange;
 
@@ -35,10 +35,20 @@ public class PlorbSlotHolder : MonoBehaviour
                 myPlorb = hoveringPlorb;
                 myPlorb.gameObject.transform.position = this.gameObject.transform.position;
                 myPlorb.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                myPlorb.GetComponent<PlorbInteractions>().StopAllCoroutines();
                 plorbHovered = false;
                 hoveringPlorb = null;
             }
         }
+        if (myPlorb == null) isHoldingPlorb = false;
+    }
+
+    public void ForceRemovePlorb()
+    {
+        isHoldingPlorb = false;
+        myPlorb = null;
+        plorbHovered = false;
+        hoveringPlorb = null;
     }
 
     void OnTriggerEnter2D(Collider2D other)

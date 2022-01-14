@@ -10,8 +10,9 @@ public class PlorbContainer : MonoBehaviour
 
         if (plorb)
         {
-            plorb.gameObject.transform.position = new Vector3(0, 0);
-            plorb.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            Rigidbody2D body = plorb.GetComponent<Rigidbody2D>();
+            Vector2 opposite = -body.velocity;
+            body.velocity = opposite;
         }
     }
 }

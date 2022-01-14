@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Eyes_Squirm_Part-2.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonEyes1272.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1273.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1274.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1275.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1276.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1277.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1278.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1279.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1280.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1281.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1283.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1284.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1287.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1288.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1291.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonEyes1292.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

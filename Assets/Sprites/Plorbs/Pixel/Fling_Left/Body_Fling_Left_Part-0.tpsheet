@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Body_Fling_Left_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+CartoonBody0700.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0702.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0704.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0706.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0708.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0710.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0712.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0714.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0716.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0718.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0720.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0722.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0724.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0726.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0728.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+CartoonBody0730.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

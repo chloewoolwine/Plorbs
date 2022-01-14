@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372569428282686549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.639, y: 2.596, z: 0}
+  m_LocalPosition: {x: -0, y: -0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6707465850695254359}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3190080820411932986, guid: 1b83e5ebeae6bd741a87252e4ada3db8, type: 3}
+  m_Sprite: {fileID: -7349512922394984937, guid: 3800a3835f992d242be9c13729ec98c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -342,6 +342,8 @@ MonoBehaviour:
   myData: {fileID: 6707465850695254357}
   direction: {x: 0, y: 0}
   maxSpeed: Infinity
+  height: 0
+  basePickupHeight: 250
 --- !u!114 &6707465850695254352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +369,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 5e5b4aa0648105c4a893e75180b33769, type: 2}
