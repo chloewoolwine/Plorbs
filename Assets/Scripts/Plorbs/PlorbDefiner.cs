@@ -42,6 +42,7 @@ public class PlorbDefiner : MonoBehaviour
         data.body = (BodyStyle)type;
         data.wing = (WingStyle)type;
         data.ear = (EarStyle)type;
+        data.eye = (EyeStyle)type;
         //create genes
         data.genes = CommonGenesOfType(type);
 
@@ -63,15 +64,16 @@ public class PlorbDefiner : MonoBehaviour
         switch (type)
         {
             case BodyStyle.Paint: //at least one has to be paint but one or two can be pixel
-                return new PlorbGenes(BodyStyle.Paint, Random.Range(0f, 1f) > .5f ? BodyStyle.Paint: BodyStyle.Pixel, 
-                    WingStyle.Paint, Random.Range(0f, 1f) > .5f ? WingStyle.Paint : WingStyle.Pixel, 
-                    EarStyle.Paint, Random.Range(0f, 1f) > .5f ? EarStyle.Paint : EarStyle.Pixel);
+                return new PlorbGenes(BodyStyle.Paint, Random.Range(0f, 1f) > .5f ? BodyStyle.Paint : BodyStyle.Pixel,
+                    WingStyle.Paint, Random.Range(0f, 1f) > .5f ? WingStyle.Paint : WingStyle.Pixel,
+                    EarStyle.Paint, Random.Range(0f, 1f) > .5f ? EarStyle.Paint : EarStyle.Pixel,
+                    EyeStyle.Paint, Random.Range(0f, 1f) > .5f ? EyeStyle.Paint : EyeStyle.Pixel);
 
             case BodyStyle.Pixel:
-                return new PlorbGenes(BodyStyle.Pixel, BodyStyle.Pixel, WingStyle.Pixel, WingStyle.Pixel, EarStyle.Pixel, EarStyle.Pixel);
+                return new PlorbGenes(BodyStyle.Pixel, BodyStyle.Pixel, WingStyle.Pixel, WingStyle.Pixel, EarStyle.Pixel, EarStyle.Pixel, EyeStyle.Pixel, EyeStyle.Pixel);
 
             case BodyStyle.Poly: //poly is dominant so can have any genes as long as one of them is poyl
-                PlorbGenes temp = new PlorbGenes(BodyStyle.Poly, BodyStyle.Poly, WingStyle.Poly, WingStyle.Poly, EarStyle.Poly, EarStyle.Poly);
+                PlorbGenes temp = new PlorbGenes(BodyStyle.Poly, BodyStyle.Poly, WingStyle.Poly, WingStyle.Poly, EarStyle.Poly, EarStyle.Poly, EyeStyle.Poly, EyeStyle.Poly);
 
                 float f1 = Random.Range(0f, 1f);
                 float f2 = Random.Range(0f, 1f);
@@ -80,6 +82,7 @@ public class PlorbDefiner : MonoBehaviour
                 if (f1 > .5f){ temp.body2 = f1 > .8f ? BodyStyle.Pixel : BodyStyle.Paint;}
                 if (f2 > .5f) { temp.wing2 = f2 > .8f ? WingStyle.Pixel : WingStyle.Paint; }
                 if (f3 > .5f) { temp.ear2 = f3 > .8f ? EarStyle.Pixel : EarStyle.Paint; }
+                if (f3 > .5f) { temp.eye2 = f3 > .8f ? EyeStyle.Pixel : EyeStyle.Paint; }
                 return temp;
         }
 
@@ -133,6 +136,7 @@ public class PlorbDefiner : MonoBehaviour
                 val += 50;
                 break;
         }
+        //eyes have no bearing on value.
 
         //TODO: some kind of algorithm for color cost??
 
@@ -287,6 +291,9 @@ public class PlorbDefiner : MonoBehaviour
 
         if (e1 == 0) childData.genes.ear1 = plorb1.genes.ear1; else childData.genes.ear1 = plorb1.genes.ear2;
         if (e2 == 0) childData.genes.ear2 = plorb2.genes.ear1; else childData.genes.ear2 = plorb2.genes.ear2;
+        
+        if (e1 == 0) childData.genes.eye1 = plorb1.genes.eye1; else childData.genes.eye1 = plorb1.genes.eye2;
+        if (e2 == 0) childData.genes.eye2 = plorb2.genes.eye1; else childData.genes.eye2 = plorb2.genes.eye2;
 
         return childPlorb;
     }
@@ -296,6 +303,7 @@ public class PlorbDefiner : MonoBehaviour
         plorb.body = SetBody(plorb);
         plorb.wing = SetWing(plorb);
         plorb.ear = SetEar(plorb);
+        plorb.eye = SetEye(plorb);
     }
 
     private BodyStyle SetBody(PlorbData plorb)
@@ -323,6 +331,12 @@ public class PlorbDefiner : MonoBehaviour
         if (temp.Contains(EarStyle.Poly)) return EarStyle.Poly;
         else if (temp.Contains(EarStyle.Paint)) return EarStyle.Paint;
         else return EarStyle.Pixel;
+    }
+
+    //eye style has a special component; it is actually completely random between the two genes
+    private EyeStyle SetEye(PlorbData plorb)
+    {
+        if (Random.Range(0f, 1f) > .5f) return plorb.genes.eye1; else return plorb.genes.eye2;
     }
 
     private GameObject BlankPlorb() { return (GameObject)Instantiate(blankPlorbPrefab, new Vector3(0, 0, 0), Quaternion.identity); }

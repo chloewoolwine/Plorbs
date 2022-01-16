@@ -30,10 +30,15 @@ public class RightClickMenu : MonoBehaviour, IPointerExitHandler
         DoOpenAnimation();
     }
 
-    public void OnPointerExit(PointerEventData eventData)
+    public void EscapePlorb()
     {
         currentPlorb = null;
         buttons.transform.position = new Vector3(-750f, 750f);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        EscapePlorb();
     }
     
     public void FeedPlorb()

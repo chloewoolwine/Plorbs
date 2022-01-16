@@ -260,6 +260,7 @@ MonoBehaviour:
   body: 0
   ear: 0
   wing: 0
+  eye: 0
   value: 0
   hue: {r: 0, g: 0, b: 0, a: 0}
   givenName: 
@@ -277,6 +278,8 @@ MonoBehaviour:
     wing2: 0
     ear1: 0
     ear2: 0
+    eye1: 0
+    eye2: 0
 --- !u!114 &6707465850695254355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,6 +317,8 @@ MonoBehaviour:
   animators: []
   theData: {fileID: 6707465850695254357}
   myRigid: {fileID: 7895868292997202036}
+  InControl: 0
+  isMouseDown: 0
 --- !u!114 &6707465850695254354
 MonoBehaviour:
   m_ObjectHideFlags: 0

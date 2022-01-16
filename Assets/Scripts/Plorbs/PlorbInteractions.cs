@@ -39,10 +39,12 @@ public class PlorbInteractions : MonoBehaviour
 
     void OnMouseOver()
     {
+        //right click opens up plorb data nad right clicks
         if(Input.GetMouseButtonDown(1))
         {
             //do stuff here
             RightClickMenu.INSTANCE.MoveToPlorb(myData);
+            PlorbDataScreen.INSTANCE.ShowPlorb(myData);
         }
     }
 
@@ -65,6 +67,7 @@ public class PlorbInteractions : MonoBehaviour
     // Update the dragged position as long as the mouse button is held.
     IEnumerator Drag()
     {
+        RightClickMenu.INSTANCE.EscapePlorb();
         anim.SetDragSortedOrder();
 
       //  _body.transform.position = new Vector3(_body.transform.position.x, _body.transform.position.y, 1);

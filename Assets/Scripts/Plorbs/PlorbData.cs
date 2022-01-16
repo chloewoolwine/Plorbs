@@ -9,6 +9,7 @@ public class PlorbData : MonoBehaviour
     public BodyStyle body;
     public EarStyle ear;
     public WingStyle wing;
+    public EyeStyle eye;
 
     //monetary value of a plorb.
     public int value;
@@ -174,7 +175,10 @@ public class PlorbGenes
     public EarStyle ear1;
     public EarStyle ear2;
 
-    public PlorbGenes(BodyStyle b1, BodyStyle b2, WingStyle w1, WingStyle w2, EarStyle e1, EarStyle e2)
+    public EyeStyle eye1;
+    public EyeStyle eye2;
+
+    public PlorbGenes(BodyStyle b1, BodyStyle b2, WingStyle w1, WingStyle w2, EarStyle e1, EarStyle e2, EyeStyle ey1, EyeStyle ey2)
     {
         body1 = b1;
         body2 = b2;
@@ -182,6 +186,8 @@ public class PlorbGenes
         wing2 = w2;
         ear1 = e1;
         ear2 = e2;
+        eye1 = ey1;
+        eye2 = ey2;
     }
 }
 
@@ -200,6 +206,13 @@ public enum EarStyle
 }
 
 public enum WingStyle
+{
+    Paint,
+    Poly,
+    Pixel
+}
+
+public enum EyeStyle
 {
     Paint,
     Poly,
