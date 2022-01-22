@@ -66,7 +66,7 @@ public class PlorbAnimator : MonoBehaviour
         //right postive, left negative
         //up positive, down negative.
         //if we are moving
-        if (!isMouseDown && InControl) //change to check of plorb interacitons
+        if (!isMouseDown && InControl && theData.Age > 10) //change to check of plorb interacitons
         {
             if (myRigid.velocity.magnitude > 1)
             {
@@ -115,6 +115,8 @@ public class PlorbAnimator : MonoBehaviour
                 Idle();
             }
         }
+        if (theData.Age < 10)
+            Egg();
     }
 
     //attatch the hue changing to the onhatch function once it is created
@@ -162,13 +164,19 @@ public class PlorbAnimator : MonoBehaviour
         if (theData.Age < 10)
         {
             bodyRenderer.sprite = egg;
+            bodyAnimator.StopPlayback();
+            wingAnimator.StopPlayback();
+            earAnimator.StopPlayback();
+            eyeAnimator.StopPlayback();
+        } else
+        {
+            Idle();
         }
 
         theData.hue.a = 1f;
         bodyRenderer.color = theData.hue;
         earRenderer.color = theData.hue;
         wingRenderer.color = theData.hue;
-        Idle();
     }
 
     public void SetDragSortedOrder()
@@ -252,8 +260,21 @@ public class PlorbAnimator : MonoBehaviour
         Idle();
     }
 
+    public void Egg()
+    {
+        bodyAnimator.Play("Egg");
+        wingAnimator.Play("eggshhh");
+        eyeAnimator.Play("eggshhh");
+        earAnimator.Play("eggshhh");
+    }
+
     public void Idle()
     {
+        if(theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -313,6 +334,11 @@ public class PlorbAnimator : MonoBehaviour
     //TODO: replace cartoon with other bodytypes, add eyes
     public void onDeath()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         InControl = false;
         switch (theData.body)
         {
@@ -371,6 +397,11 @@ public class PlorbAnimator : MonoBehaviour
     
     public void FlingRight()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -427,6 +458,11 @@ public class PlorbAnimator : MonoBehaviour
 
     public void FlingLeft()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -482,6 +518,11 @@ public class PlorbAnimator : MonoBehaviour
 
     public void FlingUp()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -538,6 +579,11 @@ public class PlorbAnimator : MonoBehaviour
 
     public void RollBackwards()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -594,6 +640,11 @@ public class PlorbAnimator : MonoBehaviour
 
     public void RollForwards()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -638,6 +689,11 @@ public class PlorbAnimator : MonoBehaviour
 
     public void RollRight()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:
@@ -682,6 +738,11 @@ public class PlorbAnimator : MonoBehaviour
 
     public void RollLeft()
     {
+        if (theData.Age < 10)
+        {
+            Egg();
+            return;
+        }
         switch (theData.body)
         {
             case BodyStyle.Pixel:

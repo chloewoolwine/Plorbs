@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class PlorbDataScreen : MonoBehaviour
 {
-    public static PlorbDataScreen INSTANCE;
     
     public PlorbData currentPlorb;
 
@@ -33,11 +32,7 @@ public class PlorbDataScreen : MonoBehaviour
     public Slider happiness;
     public Slider juice;
 
-    private void Awake()
-    {
-        INSTANCE = this;
-    }
-
+    
     private void Update()
     {
         if (currentPlorb != null)

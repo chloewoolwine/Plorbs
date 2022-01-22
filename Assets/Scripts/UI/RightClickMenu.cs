@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class RightClickMenu : MonoBehaviour, IPointerExitHandler
 {
     public PlorbData currentPlorb;
+    private PlorbAI ai;
 
     public GameObject buttons;
 
@@ -18,6 +19,14 @@ public class RightClickMenu : MonoBehaviour, IPointerExitHandler
         INSTANCE = this;
     }
 
+    public void Update()
+    {
+        if(currentPlorb != null)
+        {
+            ai.currentAction = PlorbAI.Action.JackShit;
+        }
+    }
+
     public void DoOpenAnimation()
     {
         //do animation here lol
@@ -27,6 +36,7 @@ public class RightClickMenu : MonoBehaviour, IPointerExitHandler
     {
         buttons.transform.position = cam.WorldToScreenPoint(plorb.transform.position);
         currentPlorb = plorb;
+        ai = currentPlorb.GetComponent<PlorbAI>();
         DoOpenAnimation();
     }
 

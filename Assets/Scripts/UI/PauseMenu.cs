@@ -39,7 +39,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
         gameIsPaused = false;
-        GameManager.INSTANCE.UpdateGameState(GameState.InGame);
+        GameManager.INSTANCE.load = true;
+        GameManager.INSTANCE.UpdateGameState(GameState.Island);
     }
 
     public void SaveButton()

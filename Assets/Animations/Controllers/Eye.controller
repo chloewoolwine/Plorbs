@@ -558,6 +558,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -3712681821710723548}
     m_Position: {x: 1078, y: 1341.6666, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8541201966019089609}
+    m_Position: {x: 371.63904, y: 1087.5485, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -1231,6 +1234,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 8c7687d659b3d7141ac1f36cdbef4a9f, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8541201966019089609
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: eggshhh
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 7bb47f2395bed6347a268c71cd4e4e98, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

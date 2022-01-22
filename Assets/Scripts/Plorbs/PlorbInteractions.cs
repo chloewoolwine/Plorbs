@@ -8,6 +8,8 @@ public class PlorbInteractions : MonoBehaviour
     public Collider2D mycollider;
 
     public PlorbData myData;
+    public PlorbDataScreen screen;
+    public PlorbAI ai;
 
     private Vector2 previousPos;
     private bool isMouseDown;
@@ -34,7 +36,7 @@ public class PlorbInteractions : MonoBehaviour
         isMouseDown = true; //because we're in the on mouse down function
 
         StartCoroutine(Drag());
-        PlorbDataScreen.INSTANCE.ShowPlorb(myData);
+        screen.ShowPlorb(myData);
     }
 
     void OnMouseOver()
@@ -44,7 +46,7 @@ public class PlorbInteractions : MonoBehaviour
         {
             //do stuff here
             RightClickMenu.INSTANCE.MoveToPlorb(myData);
-            PlorbDataScreen.INSTANCE.ShowPlorb(myData);
+            screen.ShowPlorb(myData);
         }
     }
 
@@ -77,6 +79,7 @@ public class PlorbInteractions : MonoBehaviour
 
         while (Input.GetMouseButton(0))
         {
+            ai.currentAction = PlorbAI.Action.JackShit;
             // Keep the object from accumulating velocity while dragging.
             _body.velocity = Vector2.zero;
             _body.angularVelocity = 0f;
@@ -127,6 +130,7 @@ public class PlorbInteractions : MonoBehaviour
         _body = GetComponent<Rigidbody2D>();
         _collider = GetComponent<BoxCollider2D>();
         anim = GetComponent<PlorbAnimator>();
+        screen = FindObjectOfType<PlorbDataScreen>();
     }
 
     // Utility functions to compute dragged position.

@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7349512922394984937, guid: 3800a3835f992d242be9c13729ec98c0, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1833430810131996833
@@ -331,6 +331,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 680a9c4c708f0d14e99d039ca3db3c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentAction: 0
+  anim: {fileID: 6707465850695254355}
+  body: {fileID: 7895868292997202036}
+  movementspeed: 3.6
+  mydata: {fileID: 6707465850695254357}
 --- !u!114 &6707465850695254353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,10 +351,12 @@ MonoBehaviour:
   myrigidbody: {fileID: 7895868292997202036}
   mycollider: {fileID: 1389479426227179033}
   myData: {fileID: 6707465850695254357}
+  screen: {fileID: 0}
+  ai: {fileID: 6707465850695254354}
   direction: {x: 0, y: 0}
   maxSpeed: Infinity
   height: 0
-  basePickupHeight: 250
+  basePickupHeight: 100
 --- !u!114 &6707465850695254352
 MonoBehaviour:
   m_ObjectHideFlags: 0

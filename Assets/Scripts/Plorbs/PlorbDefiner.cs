@@ -9,12 +9,32 @@ public class PlorbDefiner : MonoBehaviour
 
     public static PlorbDefiner INSTANCE;
     public GameObject blankPlorbPrefab;
+
+    private GameManager gm; 
     
     //public List<PlorbData> deadPlorbs;
 
     private void Awake()
     {
         INSTANCE = this;
+    }
+
+    private void Start()
+    {
+        gm = FindObjectOfType<GameManager>();
+        if(gm.load == true)
+        {
+            SaveHandler sv = FindObjectOfType<SaveHandler>();
+            foreach(PlorbSaveData save in sv.currentSave.plorbs)
+            {
+                CreatePlorbFromSave(save);
+            }
+        }
+    }
+
+    internal static void MakeTutorialEgg()
+    {
+        INSTANCE.CreateRandomPlorbOfType(BodyStyle.Paint);
     }
 
     public void MagicalPlorbButton()
@@ -31,12 +51,7 @@ public class PlorbDefiner : MonoBehaviour
     {
         GameObject newPlorb = BlankPlorb();
         PlorbData data = newPlorb.GetComponent<PlorbData>();
-        //
-        //
-        //debug
-        data.Age = 10;
-        //
-        //
+        data.Age = 0;
 
         //set body info
         data.body = (BodyStyle)type;
@@ -59,7 +74,40 @@ public class PlorbDefiner : MonoBehaviour
         return newPlorb;
     }
 
-    public PlorbGenes CommonGenesOfType(BodyStyle type)
+    public GameObject CreatePlorbFromSave(PlorbSaveData save)
+    {
+        GameObject newPlorb = BlankPlorb();
+        PlorbData data = newPlorb.GetComponent<PlorbData>();
+
+        data.body = save.body;
+        data.wing = save.wing;
+        data.ear = save.ear;
+        data.eye = save.eye;
+        data.genes = save.genes;
+        data.Age = save.age;
+
+        data.totalJuiceCapacity = save.totalJuiceCapacity;
+        data.happinessDecayRate = save.happinessDecayRate;
+        data.hungerDecayRate = save.hungerDecayRate;
+        data.CurrentJuice = save.currentJuice;
+        data.Hunger = save.hunger;
+        data.Happiness = save.happiness;
+        data.deathState = save.deathState;
+
+        data.hue = new Color(save.r, save.g, save.b);
+        data.title = save.title;
+        data.name = save.givenName;
+        data.value = save.value;
+        newPlorb.GetComponent<PlorbAnimator>().ResetHue();
+
+        newPlorb.transform.parent = this.gameObject.transform;
+
+        newPlorb.transform.position = new Vector3(save.x, save.y);
+
+        return newPlorb;
+    }
+
+    public static PlorbGenes CommonGenesOfType(BodyStyle type)
     {
         switch (type)
         {
@@ -158,6 +206,8 @@ public class PlorbDefiner : MonoBehaviour
         PlorbAnimator anim = plorb.GetComponent<PlorbAnimator>();
         anim.onDeath();
         Destroy(plorb.gameObject,.5f);
+
+        
     }
 
     public void SellPlorb(PlorbData plorb)
@@ -341,4 +391,5 @@ public class PlorbDefiner : MonoBehaviour
 
     private GameObject BlankPlorb() { return (GameObject)Instantiate(blankPlorbPrefab, new Vector3(0, 0, 0), Quaternion.identity); }
 }
+
 

@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     public void UpdateGameState(GameState newState)
     {
         state = newState;
+        LeanTween.reset();
 
         switch (state)
         {
@@ -50,14 +51,27 @@ public class GameManager : MonoBehaviour
 
                 break;
 
-            case GameState.InGame:
+            case GameState.Island:
                 if (load)
                 {
-
+                    SceneManager.LoadSceneAsync("Game");
                 } else
                 {
                     SceneManager.LoadSceneAsync("Game");
                 }
+                break;
+            case GameState.Cave:
+                //show loading screen
+                //cave load
+                //get data for cave
+                state = GameState.Cave;
+                SaveHandler.INSTANCE.CreateSave();
+                SceneManager.LoadSceneAsync("Cave");
+                break;
+            case GameState.Shop:
+                state = GameState.Cave;
+                SaveHandler.INSTANCE.CreateSave();
+                SceneManager.LoadSceneAsync("Shop");
                 break;
         }
 
@@ -69,5 +83,7 @@ public enum GameState
 {
     Menu,
     Pause,
-    InGame
+    Island,
+    Cave,
+    Shop
 }

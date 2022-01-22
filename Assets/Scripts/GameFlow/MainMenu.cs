@@ -9,19 +9,13 @@ public class MainMenu : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject loadingScreen;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    
     public void NewGameStart()
     {
         GameManager.INSTANCE.load = false;
         loadingScreen.gameObject.SetActive(true);
         mainmain.gameObject.SetActive(false);
-        GameManager.INSTANCE.UpdateGameState(GameState.InGame);
+        GameManager.INSTANCE.UpdateGameState(GameState.Island);
     }
 
     public void SettingsPanel()
