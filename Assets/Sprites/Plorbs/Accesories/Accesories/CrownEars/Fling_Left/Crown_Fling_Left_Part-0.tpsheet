@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Crown_Fling_Left_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Crown_FlingLeft0700.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0702.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0704.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0706.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0708.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0710.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0712.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0714.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0716.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0718.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0720.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0722.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0724.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0726.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0728.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Crown_FlingLeft0730.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

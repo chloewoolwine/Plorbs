@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Ball_Fling_Left_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Ball_FlingLeft0732.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0734.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0736.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0738.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0740.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0742.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0744.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0746.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0748.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0750.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0752.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0754.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0756.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0758.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0760.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_FlingLeft0762.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

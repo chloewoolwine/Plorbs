@@ -14,12 +14,12 @@ public class GameManager : MonoBehaviour
     public static event Action<GameState> OnStateChange;
 
     public bool load;
-    public int saveGameNum;
+    public string savegamename;
 
 
     private void Awake()
     {
-        if(INSTANCE != null)
+        if(INSTANCE != null && INSTANCE != this)
         {
             Destroy(this.gameObject);
         }
@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
                 SceneManager.LoadSceneAsync("Cave");
                 break;
             case GameState.Shop:
-                state = GameState.Cave;
+                state = GameState.Shop;
                 SaveHandler.INSTANCE.CreateSave();
                 SceneManager.LoadSceneAsync("Shop");
                 break;

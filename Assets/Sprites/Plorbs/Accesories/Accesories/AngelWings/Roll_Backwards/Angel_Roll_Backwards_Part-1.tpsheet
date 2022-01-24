@@ -1,0 +1,30 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Angel_Roll_Backwards_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Angel_RollBackwards0378.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0380.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0382.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0384.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0386.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0388.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0390.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0392.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0394.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0396.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0398.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0400.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0402.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0404.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollBackwards0406.png;1536;512;512;512; 0.5;0.5; 0;0;0;0

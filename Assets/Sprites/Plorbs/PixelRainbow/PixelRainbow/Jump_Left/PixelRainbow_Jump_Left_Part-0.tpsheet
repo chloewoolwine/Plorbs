@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Robot_Jump_Left_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Robot_JumpLeft1041.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1042.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1044.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1046.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1048.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1050.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1052.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1054.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1056.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1058.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1060.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1062.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1064.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1066.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1068.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Robot_JumpLeft1070.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

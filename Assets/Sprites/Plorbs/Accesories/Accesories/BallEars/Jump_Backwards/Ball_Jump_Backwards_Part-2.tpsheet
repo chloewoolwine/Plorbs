@@ -1,0 +1,29 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Ball_Jump_Backwards_Part-2.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Ball_JumpBackwards1204.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1206.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1208.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1210.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1212.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1214.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1216.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1218.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1220.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1222.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1224.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1226.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1228.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_JumpBackwards1230.png;1024;0;512;512; 0.5;0.5; 0;0;0;0

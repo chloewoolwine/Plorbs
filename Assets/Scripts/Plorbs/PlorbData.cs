@@ -34,9 +34,11 @@ public class PlorbData : MonoBehaviour
 
     public PlorbGenes genes;
 
-    private float happiness;
-    private float hunger;
-    private float currentJuice;
+    public float happiness;
+    public float hunger;
+    public float currentJuice;
+
+    public int sexcooldown; //lol.
 
     public float Happiness
     {
@@ -113,9 +115,6 @@ public class PlorbData : MonoBehaviour
     private void Start()
     {
         deathtimer = 30;
-        Hunger = 30;
-        CurrentJuice = 10;
-        Happiness = 30;
         StartCoroutine(DecayStats());
         //print("your little buddy is alive");
     }
@@ -139,6 +138,7 @@ public class PlorbData : MonoBehaviour
             Happiness -= happinessDecayRate;
             CurrentJuice += juiceIncreaseRate;
             Age += 1;
+            sexcooldown--;
             yield return new WaitForSeconds(1f);
         }
     }

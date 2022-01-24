@@ -2,6 +2,280 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-0.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-1.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-2.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-3.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-4.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-5.tpsheet
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-6.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-0.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-1.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-2.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-3.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-4.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-5.tpsheet
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-6.tpsheet
+- Assets/Sprites/Environment/Sprite/Sprite/Pet_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Explosion/Angel_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Left/Angel_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Left/Angel_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Left/Angel_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_RIght/Angel_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_RIght/Angel_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_RIght/Angel_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Vertical/Angel_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Vertical/Angel_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Vertical/Angel_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Backwards/Angel_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Backwards/Angel_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Backwards/Angel_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Forward/Angel_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Forward/Angel_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Forward/Angel_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Left/Angel_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Left/Angel_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Left/Angel_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Right/Angel_Jump_Right-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Right/Angel_Jump_Right-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Right/Angel_Jump_Right-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Backwards/Angel_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Backwards/Angel_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Forwards/Angel_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Forwards/Angel_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Left/Angel_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Left/Angel_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Right/Angel_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Right/Angel_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Squirm/Angel_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Squirm/Angel_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Squirm/Angel_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Explosion/Ball_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Left/Ball_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Left/Ball_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Left/Ball_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_RIght/Ball_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_RIght/Ball_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_RIght/Ball_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Vertical/Ball_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Vertical/Ball_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Vertical/Ball_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Backwards/Ball_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Backwards/Ball_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Backwards/Ball_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Forward/Ball_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Forward/Ball_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Forward/Ball_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Left/Ball_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Left/Ball_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Left/Ball_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Right/Ball_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Right/Ball_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Right/Ball_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Backwards/Ball_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Backwards/Ball_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Forwards/Ball_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Forwards/Ball_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Left/Ball_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Left/Ball_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Right/Ball_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Right/Ball_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Squirm/Ball_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Squirm/Ball_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Squirm/Ball_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Explosion/Bat_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Left/Bat_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Left/Bat_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Left/Bat_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_RIght/Bat_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_RIght/Bat_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_RIght/Bat_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Vertical/Bat_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Vertical/Bat_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Vertical/Bat_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Backwards/Bat_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Backwards/Bat_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Backwards/Bat_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Forward/Bat_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Forward/Bat_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Forward/Bat_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Left/Bat_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Left/Bat_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Left/Bat_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Right/Bat_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Right/Bat_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Right/Bat_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Backwards/Bat_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Backwards/Bat_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Forwards/Bat_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Forwards/Bat_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Left/Bat_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Left/Bat_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Right/Bat_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Right/Bat_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Squirm/Bat_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Squirm/Bat_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Squirm/Bat_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Explosion/Crown_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Left/Crown_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Left/Crown_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Left/Crown_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_RIght/Crown_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_RIght/Crown_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_RIght/Crown_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Vertical/Crown_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Vertical/Crown_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Vertical/Crown_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Backwards/Crown_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Backwards/Crown_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Backwards/Crown_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Forward/Crown_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Forward/Crown_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Forward/Crown_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Left/Crown_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Left/Crown_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Left/Crown_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Right/Crown_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Right/Crown_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Right/Crown_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Backwards/Crown_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Backwards/Crown_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Forwards/Crown_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Forwards/Crown_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Left/Crown_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Left/Crown_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Right/Crown_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Right/Crown_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Squirm/Crown_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Squirm/Crown_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Squirm/Crown_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Explosion/Halo_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Left/Halo_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Left/Halo_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Left/Halo_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_RIght/Halo_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_RIght/Halo_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_RIght/Halo_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Vertical/Halo_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Vertical/Halo_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Vertical/Halo_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Backwards/Halo_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Backwards/Halo_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Backwards/Halo_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Forward/Halo_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Forward/Halo_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Forward/Halo_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Left/Halo_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Left/Halo_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Left/Halo_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Right/Halo_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Right/Halo_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Right/Halo_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Backwards/Halo_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Backwards/Halo_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Forwards/Halo_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Forwards/Halo_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Left/Halo_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Left/Halo_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Right/Halo_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Right/Halo_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Squirm/Halo_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Squirm/Halo_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Squirm/Halo_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Explosion/Hands_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Left/Hands_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Left/Hands_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Left/Hands_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_RIght/Hands_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_RIght/Hands_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_RIght/Hands_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Vertical/Hands_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Vertical/Hands_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Vertical/Hands_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Backwards/Hands_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Backwards/Hands_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Backwards/Hands_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Forward/Hands_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Forward/Hands_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Forward/Hands_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Left/Hands_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Left/Hands_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Left/Hands_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Right/Hands_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Right/Hands_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Right/Hands_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Backwards/Hands_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Backwards/Hands_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Forwards/Hands_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Forwards/Hands_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Left/Hands_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Left/Hands_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Right/Hands_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Right/Hands_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Squirm/Hands_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Squirm/Hands_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Squirm/Hands_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Explosion/Robot_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Left/Robot_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Left/Robot_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Left/Robot_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_RIght/Robot_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_RIght/Robot_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_RIght/Robot_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Vertical/Robot_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Vertical/Robot_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Vertical/Robot_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Backwards/Robot_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Backwards/Robot_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Backwards/Robot_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Forward/Robot_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Forward/Robot_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Forward/Robot_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Left/Robot_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Left/Robot_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Left/Robot_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Right/Robot_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Right/Robot_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Right/Robot_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Backwards/Robot_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Backwards/Robot_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Forwards/Robot_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Forwards/Robot_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Left/Robot_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Left/Robot_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Right/Robot_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Right/Robot_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Squirm/Robot_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Squirm/Robot_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Squirm/Robot_Squirm_Part-2.tpsheet
 - Assets/Sprites/Plorbs/Cartoon/Explosion/Body_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Cartoon/Explosion/Ears_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Cartoon/Explosion/Eyes_Explode_Part.tpsheet
@@ -154,6 +428,14 @@ tpsheetFileNames:
 - Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-1.tpsheet
 - Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-2.tpsheet
 - Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-0.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-1.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-2.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-3.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-4.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-5.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-6.tpsheet
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-7.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Explosion/Body_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Explosion/Ears_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Explosion/Eyes_Explode_Part.tpsheet
@@ -302,6 +584,43 @@ tpsheetFileNames:
 - Assets/Sprites/Plorbs/Pixel/Squirm/Wings_Squirm_Part-0.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Squirm/Wings_Squirm_Part-1.tpsheet
 - Assets/Sprites/Plorbs/Pixel/Squirm/Wings_Squirm_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Explosion/PixelRainbow_Explode_Part.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Left/PixelRainbow_Fling_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Left/PixelRainbow_Fling_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Left/PixelRainbow_Fling_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_RIght/PixelRainbow_Fling_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_RIght/PixelRainbow_Fling_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_RIght/PixelRainbow_Fling_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Vertical/PixelRainbow_Fling_Vertical_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Vertical/PixelRainbow_Fling_Vertical_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Vertical/PixelRainbow_Fling_Vertical_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/PixelRainbow_Idle_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/PixelRainbow_Idle_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/PixelRainbow_Idle_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/PixelRainbow_Idle_Part-3.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Backwards/PixelRainbow_Jump_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Backwards/PixelRainbow_Jump_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Backwards/PixelRainbow_Jump_Backwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Forward/PixelRainbow_Jump_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Forward/PixelRainbow_Jump_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Forward/PixelRainbow_Jump_Forwards_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Left/PixelRainbow_Jump_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Left/PixelRainbow_Jump_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Left/PixelRainbow_Jump_Left_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Right/PixelRainbow_Jump_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Right/PixelRainbow_Jump_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Right/PixelRainbow_Jump_Right_Part-2.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Backwards/PixelRainbow_Roll_Backwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Backwards/PixelRainbow_Roll_Backwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Forwards/PixelRainbow_Roll_Forwards_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Forwards/PixelRainbow_Roll_Forwards_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Left/PixelRainbow_Roll_Left_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Left/PixelRainbow_Roll_Left_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Right/PixelRainbow_Roll_Right_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Right/PixelRainbow_Roll_Right_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Squirm/PixelRainbow_Squirm_Part-0.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Squirm/PixelRainbow_Squirm_Part-1.tpsheet
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Squirm/PixelRainbow_Squirm_Part-2.tpsheet
 - Assets/Sprites/Plorbs/Poly/Explosion/Body_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Poly/Explosion/Ears_Explode_Part.tpsheet
 - Assets/Sprites/Plorbs/Poly/Explosion/Eyes_Explode_Part.tpsheet
@@ -453,6 +772,280 @@ tpsheetFileNames:
 - Assets/TestArea/Body_Idle_Part-0.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-0.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-1.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-2.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-3.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-4.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-5.png
+- Assets/Sprites/Environment/Juicer/Juicer/mainjuicer_part-6.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-0.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-1.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-2.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-3.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-4.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-5.png
+- Assets/Sprites/Environment/juicerside/juicerside/juicerside-6.png
+- Assets/Sprites/Environment/Sprite/Sprite/Robot_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Explosion/Angel_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Left/Angel_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Left/Angel_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Left/Angel_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_RIght/Angel_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_RIght/Angel_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_RIght/Angel_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Vertical/Angel_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Vertical/Angel_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Fling_Vertical/Angel_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Idle/Angel_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Backwards/Angel_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Backwards/Angel_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Backwards/Angel_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Forward/Angel_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Forward/Angel_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Forward/Angel_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Left/Angel_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Left/Angel_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Left/Angel_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Right/Angel_Jump_Right-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Right/Angel_Jump_Right-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Jump_Right/Angel_Jump_Right-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Backwards/Angel_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Backwards/Angel_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Forwards/Angel_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Forwards/Angel_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Left/Angel_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Left/Angel_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Right/Angel_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Roll_Right/Angel_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Squirm/Angel_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Squirm/Angel_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/AngelWings/Squirm/Angel_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Explosion/Ball_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Left/Ball_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Left/Ball_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Left/Ball_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_RIght/Ball_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_RIght/Ball_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_RIght/Ball_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Vertical/Ball_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Vertical/Ball_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Fling_Vertical/Ball_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Idle/Ball_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Backwards/Ball_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Backwards/Ball_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Backwards/Ball_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Forward/Ball_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Forward/Ball_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Forward/Ball_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Left/Ball_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Left/Ball_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Left/Ball_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Right/Ball_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Right/Ball_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Jump_Right/Ball_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Backwards/Ball_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Backwards/Ball_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Forwards/Ball_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Forwards/Ball_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Left/Ball_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Left/Ball_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Right/Ball_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Roll_Right/Ball_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Squirm/Ball_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Squirm/Ball_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BallEars/Squirm/Ball_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Explosion/Bat_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Left/Bat_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Left/Bat_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Left/Bat_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_RIght/Bat_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_RIght/Bat_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_RIght/Bat_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Vertical/Bat_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Vertical/Bat_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Fling_Vertical/Bat_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Idle/Bat_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Backwards/Bat_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Backwards/Bat_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Backwards/Bat_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Forward/Bat_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Forward/Bat_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Forward/Bat_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Left/Bat_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Left/Bat_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Left/Bat_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Right/Bat_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Right/Bat_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Jump_Right/Bat_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Backwards/Bat_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Backwards/Bat_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Forwards/Bat_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Forwards/Bat_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Left/Bat_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Left/Bat_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Right/Bat_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Roll_Right/Bat_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Squirm/Bat_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Squirm/Bat_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/BatWings/Squirm/Bat_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Explosion/Crown_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Left/Crown_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Left/Crown_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Left/Crown_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_RIght/Crown_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_RIght/Crown_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_RIght/Crown_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Vertical/Crown_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Vertical/Crown_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Fling_Vertical/Crown_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Idle/Crown_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Backwards/Crown_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Backwards/Crown_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Backwards/Crown_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Forward/Crown_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Forward/Crown_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Forward/Crown_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Left/Crown_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Left/Crown_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Left/Crown_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Right/Crown_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Right/Crown_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Jump_Right/Crown_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Backwards/Crown_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Backwards/Crown_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Forwards/Crown_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Forwards/Crown_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Left/Crown_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Left/Crown_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Right/Crown_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Roll_Right/Crown_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Squirm/Crown_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Squirm/Crown_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/CrownEars/Squirm/Crown_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Explosion/Halo_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Left/Halo_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Left/Halo_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Left/Halo_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_RIght/Halo_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_RIght/Halo_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_RIght/Halo_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Vertical/Halo_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Vertical/Halo_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Fling_Vertical/Halo_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Idle/Halo_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Backwards/Halo_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Backwards/Halo_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Backwards/Halo_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Forward/Halo_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Forward/Halo_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Forward/Halo_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Left/Halo_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Left/Halo_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Left/Halo_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Right/Halo_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Right/Halo_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Jump_Right/Halo_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Backwards/Halo_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Backwards/Halo_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Forwards/Halo_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Forwards/Halo_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Left/Halo_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Left/Halo_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Right/Halo_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Roll_Right/Halo_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Squirm/Halo_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Squirm/Halo_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HaloEars/Squirm/Halo_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Explosion/Hands_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Left/Hands_Explode_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Left/Hands_Explode_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Left/Hands_Explode_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_RIght/Hands_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_RIght/Hands_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_RIght/Hands_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Vertical/Hands_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Vertical/Hands_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Fling_Vertical/Hands_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Idle/Hands_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Backwards/Hands_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Backwards/Hands_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Backwards/Hands_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Forward/Hands_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Forward/Hands_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Forward/Hands_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Left/Hands_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Left/Hands_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Left/Hands_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Right/Hands_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Right/Hands_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Jump_Right/Hands_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Backwards/Hands_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Backwards/Hands_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Forwards/Hands_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Forwards/Hands_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Left/Hands_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Left/Hands_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Right/Hands_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Roll_Right/Hands_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Squirm/Hands_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Squirm/Hands_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/HandWIngs/Squirm/Hands_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Explosion/Robot_Explode_Part.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Left/Robot_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Left/Robot_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Left/Robot_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_RIght/Robot_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_RIght/Robot_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_RIght/Robot_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Vertical/Robot_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Vertical/Robot_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Fling_Vertical/Robot_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Idle/Robot_Idle_Part-3.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Backwards/Robot_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Backwards/Robot_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Backwards/Robot_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Forward/Robot_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Forward/Robot_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Forward/Robot_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Left/Robot_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Left/Robot_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Left/Robot_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Right/Robot_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Right/Robot_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Jump_Right/Robot_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Backwards/Robot_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Backwards/Robot_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Forwards/Robot_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Forwards/Robot_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Left/Robot_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Left/Robot_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Right/Robot_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Roll_Right/Robot_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Squirm/Robot_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Squirm/Robot_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/Accesories/Accesories/RobotWings/Squirm/Robot_Squirm_Part-2.png
 - Assets/Sprites/Plorbs/Cartoon/Explosion/Body_Explode_Part.png
 - Assets/Sprites/Plorbs/Cartoon/Explosion/Ears_Explode_Part.png
 - Assets/Sprites/Plorbs/Cartoon/Explosion/Eyes_Explode_Part.png
@@ -605,6 +1198,14 @@ textureFileNames:
 - Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-1.png
 - Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-2.png
 - Assets/Sprites/Plorbs/Cartoon/Squirm/Wings_Squirm_Part-3.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-0.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-1.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-2.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-3.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-4.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-5.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-6.png
+- Assets/Sprites/Plorbs/Death/Death/Death_Part-7.png
 - Assets/Sprites/Plorbs/Pixel/Explosion/Body_Explode_Part.png
 - Assets/Sprites/Plorbs/Pixel/Explosion/Ears_Explode_Part.png
 - Assets/Sprites/Plorbs/Pixel/Explosion/Eyes_Explode_Part.png
@@ -753,6 +1354,43 @@ textureFileNames:
 - Assets/Sprites/Plorbs/Pixel/Squirm/Wings_Squirm_Part-0.png
 - Assets/Sprites/Plorbs/Pixel/Squirm/Wings_Squirm_Part-1.png
 - Assets/Sprites/Plorbs/Pixel/Squirm/Wings_Squirm_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Explosion/Robot_Explode_Part.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Left/Robot_Fling_Left_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Left/Robot_Fling_Left_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Left/Robot_Fling_Left_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_RIght/Robot_Fling_Right_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_RIght/Robot_Fling_Right_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_RIght/Robot_Fling_Right_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Vertical/Robot_Fling_Vertical_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Vertical/Robot_Fling_Vertical_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Fling_Vertical/Robot_Fling_Vertical_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/Robot_Idle_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/Robot_Idle_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/Robot_Idle_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Idle/Robot_Idle_Part-3.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Backwards/Robot_Jump_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Backwards/Robot_Jump_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Backwards/Robot_Jump_Backwards_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Forward/Robot_Jump_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Forward/Robot_Jump_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Forward/Robot_Jump_Forwards_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Left/Robot_Jump_Left_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Left/Robot_Jump_Left_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Left/Robot_Jump_Left_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Right/Robot_Jump_Right_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Right/Robot_Jump_Right_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Jump_Right/Robot_Jump_Right_Part-2.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Backwards/Robot_Roll_Backwards_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Backwards/Robot_Roll_Backwards_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Forwards/Robot_Roll_Forwards_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Forwards/Robot_Roll_Forwards_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Left/Robot_Roll_Left_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Left/Robot_Roll_Left_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Right/Robot_Roll_Right_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Roll_Right/Robot_Roll_Right_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Squirm/Robot_Squirm_Part-0.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Squirm/Robot_Squirm_Part-1.png
+- Assets/Sprites/Plorbs/PixelRainbow/PixelRainbow/Squirm/Robot_Squirm_Part-2.png
 - Assets/Sprites/Plorbs/Poly/Explosion/Body_Explode_Part.png
 - Assets/Sprites/Plorbs/Poly/Explosion/Ears_Explode_Part.png
 - Assets/Sprites/Plorbs/Poly/Explosion/Eyes_Explode_Part.png
@@ -904,6 +1542,325 @@ textureFileNames:
 - Assets/TestArea/Body_Idle_Part-0.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

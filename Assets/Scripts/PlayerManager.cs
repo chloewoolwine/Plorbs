@@ -25,6 +25,7 @@ public class PlayerManager : MonoBehaviour
     public static int inventoryCapacity = 6;
 
     private GameManager gm;
+    private SaveHandler sv;
 
 
     private void Start()
@@ -32,7 +33,8 @@ public class PlayerManager : MonoBehaviour
         INSTANCE = this;
         //some logic here for loading an old save i guess?
         gm = FindObjectOfType<GameManager>();
-        if (gm.load) DoLoadGame(FindObjectOfType<SaveHandler>());
+        sv = FindObjectOfType<SaveHandler>();
+        if (gm.load) DoLoadGame(sv);
         else StartNewGame();
     }
 

@@ -1,0 +1,29 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Bat_Jump_Left_Part-2.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Bat_Jump_Left1104.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1106.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1108.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1110.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1112.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1114.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1116.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1118.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1120.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1122.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1124.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1126.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1128.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Bat_Jump_Left1130.png;1024;0;512;512; 0.5;0.5; 0;0;0;0

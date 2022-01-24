@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Angel_Roll_Left_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Angel_RollLeft0572.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0574.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0576.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0578.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0580.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0582.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0584.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0586.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0588.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0590.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0592.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0594.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0596.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0598.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0600.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Angel_RollLeft0604.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

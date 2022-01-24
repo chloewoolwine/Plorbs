@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Ball_Explode_Part.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Ball_Ezplode1294.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1296.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1298.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1300.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1302.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1304.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1306.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1308.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1310.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1312.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1314.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1316.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Ball_Ezplode1318.png;1024;512;512;512; 0.5;0.5; 0;0;0;0

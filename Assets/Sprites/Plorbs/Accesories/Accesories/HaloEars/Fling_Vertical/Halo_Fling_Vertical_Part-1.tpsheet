@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Halo_Fling_Vertical_Part-1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Halo_FlingVertical0816.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0818.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0820.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0822.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0824.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0826.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0828.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0830.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0832.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0834.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0836.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0838.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0840.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0842.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0844.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_FlingVertical0846.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

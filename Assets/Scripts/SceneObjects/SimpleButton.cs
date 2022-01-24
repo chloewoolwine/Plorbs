@@ -22,7 +22,7 @@ public class SimpleButton : MonoBehaviour
         print("mouse over!");
         if (spriteToTween)
         {
-            original = new Vector3(gameObject.transform.localScale.x, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
+            original = new Vector3(spriteToTween.gameObject.transform.localScale.x, spriteToTween.gameObject.transform.localScale.y, spriteToTween.gameObject.transform.localScale.z);
             LeanTween.scale(spriteToTween, hoverSize, .2f);
             LeanTween.color(spriteToTween, colorToTween, .2f);
         }

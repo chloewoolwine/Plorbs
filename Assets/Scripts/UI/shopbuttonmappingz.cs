@@ -11,6 +11,8 @@ public class shopbuttonmappingz : MonoBehaviour
     public GameObject defaultmenu;
     public GameObject convoMenu;
 
+    public PlorbLister plorblist;
+
     public bool ConvoOccuring;
     int convonum;
 
@@ -66,6 +68,8 @@ public class shopbuttonmappingz : MonoBehaviour
     {
         defaultmenu.SetActive(false);
         sellMenu.SetActive(true);
+
+        plorblist.UpdatePlorbs();
     }
 
     public void BuyEggMenuOff()

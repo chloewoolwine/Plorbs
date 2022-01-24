@@ -46,6 +46,8 @@ public class PauseMenu : MonoBehaviour
     public void SaveButton()
     {
         //no such capability available.
+        //add second menu for saving and inputing name
+        SaveHandler.INSTANCE.CreateSave();
     }
 
     public void PauseButton()

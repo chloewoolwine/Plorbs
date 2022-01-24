@@ -13,7 +13,7 @@ public class SaveHandler : MonoBehaviour
 
     private void Awake()
     {
-        if (INSTANCE != null)
+        if (INSTANCE != null && this != INSTANCE)
             Destroy(this);
         INSTANCE = this;
         DontDestroyOnLoad(this.gameObject);
@@ -58,7 +58,7 @@ public class SaveHandler : MonoBehaviour
         }
     }
 
-    public string[] GetGameSaveLists()
+    public static string[] GetGameSaveLists()
     {
         if(!Directory.Exists(Application.persistentDataPath + "/saves/"))
         {
@@ -112,9 +112,9 @@ public class SaveHandler : MonoBehaviour
             happinessDecayRate = plorb.happinessDecayRate,
             juiceIncreaseRate = plorb.juiceIncreaseRate,
 
-            happiness = plorb.Happiness,
-            hunger = plorb.Hunger,
-            currentJuice = plorb.CurrentJuice,
+            happiness = plorb.happiness,
+            hunger = plorb.hunger,
+            currentJuice = plorb.currentJuice,
 
             deathState = plorb.deathState,
             x = plorb.gameObject.transform.position.x,

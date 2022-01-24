@@ -19,6 +19,8 @@ public class PlorbAnimator : MonoBehaviour
     public Sprite paintEye;
     public Sprite polyEye;
     public Sprite pixelEye;
+    
+    public ParticleSystem particles;
 
     public Sprite egg;
 
@@ -161,6 +163,7 @@ public class PlorbAnimator : MonoBehaviour
                 break;
         }
 
+
         if (theData.Age < 10)
         {
             bodyRenderer.sprite = egg;
@@ -172,11 +175,12 @@ public class PlorbAnimator : MonoBehaviour
         {
             Idle();
         }
-
+        ParticleSystem.MainModule m = particles.main;
         theData.hue.a = 1f;
         bodyRenderer.color = theData.hue;
         earRenderer.color = theData.hue;
         wingRenderer.color = theData.hue;
+        m.startColor = theData.hue;
     }
 
     public void SetDragSortedOrder()

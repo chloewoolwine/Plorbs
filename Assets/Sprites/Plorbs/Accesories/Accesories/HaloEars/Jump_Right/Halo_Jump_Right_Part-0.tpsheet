@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Halo_Jump_Right_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Halo_JumpRight0940.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0942.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0944.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0946.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0948.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0950.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0952.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0954.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0956.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0958.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0960.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0962.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0964.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0966.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0968.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_JumpRight0970.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

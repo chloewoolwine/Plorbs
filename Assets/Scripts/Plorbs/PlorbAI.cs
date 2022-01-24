@@ -12,6 +12,12 @@ public class PlorbAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 pos = this.gameObject.transform.position;
+        if(pos.x < -20 || pos.y < -10 || pos.x > 20 || pos.y > 10)
+        {
+            PlorbDefiner.INSTANCE.DestroyPlorb(GetComponent<PlorbData>());
+        }
+
         if (mydata.Age < 10)
         {
             return;

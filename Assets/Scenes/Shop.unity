@@ -2993,6 +2993,7 @@ MonoBehaviour:
   sellMenu: {fileID: 1038484703}
   defaultmenu: {fileID: 1276102038}
   convoMenu: {fileID: 643077647}
+  plorblist: {fileID: 1038484705}
   ConvoOccuring: 0
   greetings:
   - HI! Got Goold to spend?

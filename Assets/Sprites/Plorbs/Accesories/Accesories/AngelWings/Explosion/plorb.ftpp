@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "E:\\schoolstuff\\Sprites\\Spritesheets\\Accesories\\RobotWings\\Squirm",
+  "images": [
+    {
+      "name": "Robot_Squirm1240.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1240.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1241.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1241.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1242.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1242.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1243.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1243.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1244.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1244.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1245.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1245.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1246.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1246.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1247.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1247.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1248.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1248.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1249.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1249.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1250.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1250.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1251.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1251.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1252.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1252.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1253.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1253.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1254.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1254.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1255.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1255.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1256.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1256.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1257.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1257.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1258.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1258.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1259.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1259.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1260.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1260.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1261.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1261.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1262.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1262.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1263.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1263.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1264.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1264.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1265.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1265.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1266.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1266.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1267.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1267.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1268.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1268.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1269.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1269.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1270.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1270.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1271.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1271.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1272.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1272.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1273.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1273.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1274.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1274.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1275.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1275.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1276.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1276.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1277.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1277.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1278.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1278.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1279.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1279.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1280.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1280.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1281.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1281.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1283.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1283.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1285.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1285.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1287.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1287.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1289.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1289.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1291.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1291.png",
+      "folder": ""
+    },
+    {
+      "name": "Robot_Squirm1293.png",
+      "path": "E:/schoolstuff/Sprites/Spritesheets/Renders/RobotWIngs/Squirm/Robot_Squirm1293.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "Robot_Squirm_Part",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 0.5,
+    "filter": "none",
+    "exporter": "Unity3D",
+    "fileName": "pack-result",
+    "savePath": "E:\\schoolstuff\\Sprites\\Spritesheets\\Accesories\\RobotWings\\Squirm",
+    "width": 4096,
+    "height": 4096,
+    "fixedSize": true,
+    "powerOfTwo": true,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": false,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "1500",
+    "detectIdentical": false,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

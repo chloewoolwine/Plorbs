@@ -17,6 +17,8 @@ public class munie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        munietxt.text = save.currentSave.money + "";
+        if(save == null)
+            save = FindObjectOfType<SaveHandler>();
+        munietxt.text = SaveHandler.INSTANCE.currentSave.money + "";
     }
 }

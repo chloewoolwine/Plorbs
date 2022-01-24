@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://assetstore.unity.com/packages/tools/sprite-management/texturepacker-importer-16641
+#
+# created with Free texture packer v0.6.7
+# http://free-tex-packer.com
+#
+:format=40300
+:texture=Halo_Roll_Left_Part-0.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Halo_RollLeft0540.png;0;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0542.png;0;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0544.png;0;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0546.png;0;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0548.png;512;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0550.png;1024;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0552.png;1536;1536;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0554.png;512;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0556.png;512;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0558.png;512;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0560.png;1024;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0562.png;1536;1024;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0564.png;1024;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0566.png;1024;0;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0568.png;1536;512;512;512; 0.5;0.5; 0;0;0;0
+Halo_RollLeft0570.png;1536;0;512;512; 0.5;0.5; 0;0;0;0

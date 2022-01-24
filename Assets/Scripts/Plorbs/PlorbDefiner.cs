@@ -22,10 +22,9 @@ public class PlorbDefiner : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
-        if(gm.load == true)
+        if (gm.load == true)
         {
-            SaveHandler sv = FindObjectOfType<SaveHandler>();
-            foreach(PlorbSaveData save in sv.currentSave.plorbs)
+            foreach(PlorbSaveData save in SaveHandler.INSTANCE.currentSave.plorbs)
             {
                 CreatePlorbFromSave(save);
             }
@@ -39,7 +38,7 @@ public class PlorbDefiner : MonoBehaviour
 
     public void MagicalPlorbButton()
     {
-        CreateRandomPlorbOfType((BodyStyle)Random.Range(0,3));
+        GameObject x = CreateRandomPlorbOfType((BodyStyle)Random.Range(0,3));
     }
 
     public void TrashFirstPlorbISee()
@@ -90,8 +89,8 @@ public class PlorbDefiner : MonoBehaviour
         data.happinessDecayRate = save.happinessDecayRate;
         data.hungerDecayRate = save.hungerDecayRate;
         data.CurrentJuice = save.currentJuice;
-        data.Hunger = save.hunger;
-        data.Happiness = save.happiness;
+        data.hunger = save.hunger;
+        data.happiness = save.happiness;
         data.deathState = save.deathState;
 
         data.hue = new Color(save.r, save.g, save.b);
@@ -103,6 +102,10 @@ public class PlorbDefiner : MonoBehaviour
         newPlorb.transform.parent = this.gameObject.transform;
 
         newPlorb.transform.position = new Vector3(save.x, save.y);
+
+        Debug.Log(save.hunger + " " + save.happiness + " " + save.currentJuice);
+        Debug.Log(data.hunger + " " + data.happiness + " " + data.currentJuice);
+
 
         return newPlorb;
     }

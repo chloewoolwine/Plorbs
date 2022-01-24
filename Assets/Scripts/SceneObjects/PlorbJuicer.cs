@@ -7,6 +7,9 @@ public class PlorbJuicer : MonoBehaviour
     public SimpleButton button;
     public PlorbLister list;
 
+    public Animator juicepart;
+    public Animator plorbpart;
+
     private SaveHandler sv;
     
     private void Start()
@@ -32,8 +35,9 @@ public class PlorbJuicer : MonoBehaviour
         if (sv == null)
             sv = FindObjectOfType<SaveHandler>();
 
-        sv.currentSave.money += (int)(x.value * (x.currentJuice/x.totalJuiceCapacity));
 
+        sv.currentSave.money += (int)(x.value * (x.currentJuice/x.totalJuiceCapacity));
+        juicepart.Play("juicer");
         x.currentJuice = 0;
     }
 

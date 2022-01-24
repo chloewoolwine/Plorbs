@@ -17,6 +17,7 @@ public class PlorbLister : MonoBehaviour
         blank.gameObject.SetActive(true);
         for (int x = 0; x < plorbsToList.Count; x++)
         {
+            print(x);
             GameObject clone = Instantiate(blank.gameObject, Vector3.zero, Quaternion.identity, listParent.transform);
             ListSingleElement element = clone.GetComponent<ListSingleElement>();
 

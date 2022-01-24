@@ -25,6 +25,8 @@ public class PlorbInteractions : MonoBehaviour
 
     delegate YieldInstruction dragMethod(Vector2 destination);
 
+    public ParticleSystem particles;
+
     // Start a drag using the selected method when clicked.
     void OnMouseDown()
     {
@@ -121,6 +123,10 @@ public class PlorbInteractions : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
 
+        if (myData.Age > 10)
+        {
+            particles.Play();   
+        }
         _body.velocity *= new Vector2(1f, 0f);
     }
 
